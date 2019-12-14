@@ -204,7 +204,7 @@
 //===========================================================================
 // Creality CR-10S Options - Select 'Arduino Mega 2560' from Tools > Board
 //===========================================================================
-//#define CR10S
+#define CR10S
 //#define CR10S_MINI
 //#define CR10S_S4
 //#define CR10S_S5
@@ -232,7 +232,7 @@
 //#define TM3DAERO
 //#define TM3DAERO_EXTENDED
 //#define PETSFANG  //This is the RIGHT mounted version - if using the left mount please use the CUSTOM_PROBE option.
-//#define CUSTOM_PROBE
+#define CUSTOM_PROBE
 
 // Touch LCD Setting - Enable this if you have the touch LCD are are getting a "paused for user" message in the terminal window.
 //#define TOUCH_LCD_FIX
@@ -864,8 +864,9 @@
   *      O-- FRONT --+
   *    (0,0)
   */
-  #define X_PROBE_OFFSET_FROM_EXTRUDER 10  // X offset: -left  +right  [of the nozzle]
-  #define Y_PROBE_OFFSET_FROM_EXTRUDER 10  // Y offset: -front +behind [the nozzle]
+  #define X_PROBE_OFFSET_FROM_EXTRUDER -43  // X offset: -left  +right  [of the nozzle]
+  #define Y_PROBE_OFFSET_FROM_EXTRUDER -8  // Y offset: -front +behind [the nozzle]
+  #define Z_PROBE_OFFSET_FROM_EXTRUDER 1.5
 #endif
 
 //===========================================================================
@@ -981,13 +982,13 @@
 // If you want to support the people that originally came up with the board you can get our EZOut breakout board here: http://EZOut.TH3DStudio.com
 // Sales from our shop allow us to allocate time for community firmware development at no charge to you. <3
 //
-//#define BLTOUCH
+#define BLTOUCH
 // If you are having issues with the probe not deploying/stowing correctly enable the below BLTOUCH_FORCE_SW_MODE
 //#define BLTOUCH_FORCE_SW_MODE
 // For V3.0 or 3.1: Set default mode to 5V mode at Marlin startup.
 //#define BLTOUCH_SET_5V_MODE
 // Here is where you set your servo pin. EZOut Servo Pin Numbers: Anet(with 2004LCD)/Ender3/5/CR-10 - 27, Anet(with 12864LCD)/Ender 2 - 29. For 2560 boards look for the pin you connected the servo wire to and enter below.
-//#define SERVO0_PIN 27
+#define SERVO0_PIN 11
 //
 // NOTE: On 1284p boards due to space limitations and the large amount of code the BLTouch requires for the LCD Menus
 // the Bootscreen and some Control > Motion menus will not be displayed due to space restrictions
