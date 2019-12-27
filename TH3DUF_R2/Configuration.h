@@ -204,7 +204,7 @@
 //===========================================================================
 // Creality CR-10S Options - Select 'Arduino Mega 2560' from Tools > Board
 //===========================================================================
-#define CR10S
+//#define CR10S
 //#define CR10S_MINI
 //#define CR10S_S4
 //#define CR10S_S5
@@ -232,7 +232,7 @@
 //#define TM3DAERO
 //#define TM3DAERO_EXTENDED
 //#define PETSFANG  //This is the RIGHT mounted version - if using the left mount please use the CUSTOM_PROBE option.
-#define CUSTOM_PROBE
+//#define CUSTOM_PROBE
 
 // Touch LCD Setting - Enable this if you have the touch LCD are are getting a "paused for user" message in the terminal window.
 //#define TOUCH_LCD_FIX
@@ -395,7 +395,7 @@
 //===========================================================================
 // Creality Ender 5 Options - Select 'Sanguino 1284p' from Tools > Board
 //===========================================================================
-//#define ENDER5
+#define ENDER5
 
 // If you are using our EZOut V1/V2 (connected to LCD header) filament sensor kit please follow the install guide
 // and then uncomment the #define EZOUT_ENABLE line below.
@@ -410,16 +410,16 @@
 //#define TM3DAERO
 //#define TM3DAERO_EXTENDED
 //#define PETSFANG  //This is the RIGHT mounted version - if using the left mount please use the CUSTOM_PROBE option.
-//#define CUSTOM_PROBE
+#define CUSTOM_PROBE
 
 // If you are using the Creality "Silent" Board with the TMC drivers uncomment the below line
-//#define TMC_CREALITY_BOARD
+#define TMC_CREALITY_BOARD
 
 // Use Ender Bootscreeen instead of TH3D
 //#define ENDER_BOOT
 
 // If you have the new Ender 5 or Ender 5 Pro Model that has the new 800steps/mm Z leadscrew uncomment the below option to set the correct steps/mm
-//#define ENDER5_NEW_LEADSCREW
+#define ENDER5_NEW_LEADSCREW
 //=================================================================================================
 // README - THE BELOW SETTINGS ARE ONLY FOR USING THE CR-10S DUAL BOARD WITH THE ENDER 5
 // DO NOT UNCOMMENT THE ABOVE #define ENDER5 LINE IF USING THE DUAL BOARD
