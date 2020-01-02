@@ -941,10 +941,10 @@
 //#define FAN_FIX
 
 // Use your own printer name
-//#define USER_PRINTER_NAME "CHANGE ME" 
+#define USER_PRINTER_NAME "TH3D Ender 5 BLTouch" 
 
 // If your printer is homing to the endstops hard uncomment this to change the homing speed/divisor to make it less aggressive.
-//#define SLOWER_HOMING
+#define SLOWER_HOMING
 
 // BOOT SCREEN OPTIONS -----------------------------
 
@@ -988,7 +988,7 @@
 // For V3.0 or 3.1: Set default mode to 5V mode at Marlin startup.
 //#define BLTOUCH_SET_5V_MODE
 // Here is where you set your servo pin. EZOut Servo Pin Numbers: Anet(with 2004LCD)/Ender3/5/CR-10 - 27, Anet(with 12864LCD)/Ender 2 - 29. For 2560 boards look for the pin you connected the servo wire to and enter below.
-#define SERVO0_PIN 11
+#define SERVO0_PIN 27
 //
 // NOTE: On 1284p boards due to space limitations and the large amount of code the BLTouch requires for the LCD Menus
 // the Bootscreen and some Control > Motion menus will not be displayed due to space restrictions
